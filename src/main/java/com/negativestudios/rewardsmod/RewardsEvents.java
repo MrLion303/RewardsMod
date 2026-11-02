@@ -23,8 +23,7 @@ public final class RewardsEvents {
 
     @SubscribeEvent
     public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
-        if (event.phase == TickEvent.Phase.END && event.player instanceof ServerPlayer player
-                && !player.getServer().isPaused()) {
+        if (event.phase == TickEvent.Phase.END && event.player instanceof ServerPlayer player) {
             RewardsSavedData.get(player.getServer()).tickPlayer(player);
         }
     }
