@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="rewardsmod"
+version="${version}"
+displayName="RewardsMod"
+description='''
+Sistema de recompensas diarias, por racha y por horas jugadas.
+'''
+
+[[dependencies.rewardsmod]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.rewardsmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
