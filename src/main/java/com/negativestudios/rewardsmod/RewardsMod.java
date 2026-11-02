@@ -5,7 +5,7 @@ import com.negativestudios.rewardsmod.menu.RewardsMenu;
 import com.negativestudios.rewardsmod.network.RewardsNetwork;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.inventory.SimpleMenuProvider;
+import net.minecraft.world.SimpleMenuProvider;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.fml.common.Mod;
